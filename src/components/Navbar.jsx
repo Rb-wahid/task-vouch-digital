@@ -2,10 +2,10 @@ import { Button } from "react-bootstrap";
 
 const Navbar = () => {
   return (
-    <nav className="navbar bg-light">
-      <div className="container-fluid mx-3">
+    <nav className="navbar bg-light py-3">
+      <div className="container-fluid mx-5">
         <span className="navbar-brand mb-0 h1 text-primary fw-bolder">
-          ATool<span className="text-warning">.</span>
+          ATools<span className="text-warning">.</span>
         </span>
         {/* For Desktop */}
         <div className="d-none d-lg-block">

@@ -31,7 +31,9 @@ const Login = () => {
       {/* For Mobile */}
       <div className="w-100 d-lg-none ">
         <h2 className="fw-bolder text-center">Welcome Back</h2>
-        <p className="text-center text-primary">Sub-title text goes here</p>
+        <p className="text-center text-primary fs-6">
+          Sub-title text goes here
+        </p>
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3 " controlId="formBasicEmail">
             <Form.Control
@@ -81,7 +83,7 @@ const Login = () => {
             <Form.Control
               type="email"
               className="py-3 fw-bold"
-              placeholder="Email Address*"
+              placeholder="Email Address *"
             />
           </Form.Group>
 
@@ -89,7 +91,7 @@ const Login = () => {
             <Form.Control
               type="password"
               className="py-3 fw-bold"
-              placeholder="Password*"
+              placeholder="Password *"
             />
           </Form.Group>
           {token && (
